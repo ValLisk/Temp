@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 public class CustomArrayList{
     private ArrayList<String> arrayList;
     private int capacity = 10;
+    private String name = "List";//изменение в коде
 
     public CustomArrayList(){
         arrayList = new ArrayList<>();
